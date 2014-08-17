@@ -17,7 +17,7 @@ import java.util.Map;
 
 @WebServlet(
         name = "ticketServlet",
-        urlPatterns = {"/tickets"},
+        urlPatterns = {"/tickets-v1"},
         loadOnStartup = 1
 )
 @MultipartConfig(
